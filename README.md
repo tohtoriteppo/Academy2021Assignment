@@ -6,7 +6,7 @@ Clone it and open GameScene in Unity
 
 ## Bugs
 
-did not catch any bugs. 
+Might hear the player move sound when the game starts.
 
 ## Why I did this the way I did?
 
