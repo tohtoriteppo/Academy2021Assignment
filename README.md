@@ -1,8 +1,14 @@
 # Academy2021Assignment
 
+## Test the project
+
+Clone it and open GameScene in Unity
+
+## Bugs
+
 did not catch any bugs. 
 
-Why I did this the way I did?
+## Why I did this the way I did?
 
 Since this is a very small project, it affected the implementation quite a bit. I used Main Camera to hold the game controller and the object spawner. A scene always has a main camera
 so it made sense to put the game controller there. I used it to track most of the game events and play some sounds. I might have split these functionalities into separate scripts if the
@@ -23,7 +29,7 @@ I chose to just reload the scene when the player decides to restart the game. I 
 
 I chose to restrict the max velocity of the player as it seemed easier to control it that way.
 
-WRITTEN PART
+## Written part
 
 Features I would like to add:
 
@@ -31,6 +37,7 @@ Features I would like to add:
 2. Highscore system. I would implement it by checking whether the current score exceeds the saved highscore when the player dies. I would probably use PlayerPrefs for this simple saving system.
 3. Make variance to obstacles. Their size, position, and spin speed etc. are a bit randomized. 
 4. Make the game harder as the player gets further. For instance the above properties could be used to make obstacles harder the further the player gets. 
+5. Pausing would be nice.
 
 Note. Depending of the scope of the features, I might refactor code. For instance inheritance for obstacles could be a good idea and split GameController to multiple classes as it does a bit everything.
  
